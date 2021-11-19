@@ -1,0 +1,26 @@
+{
+  "plugins":["./src/index.js"],
+  "rules": {
+    "vas/no-ampersand":"true",
+    "vas/no-float-attribute":"true",
+    "declaration-block-trailing-semicolon": "always",
+    "no-descending-specificity": null,
+  },
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.tsx",
+    "**/*.ts",
+    "**/*.jpg",
+    "**/*.png",
+    "**/*.svg",
+    "**/iconfont.css",
+    "**/iconfont.json",
+    "**/*.woff",
+    "**/*.woff2",
+    "**/*.ttf",
+    "**/*.eot",
+    "**/*.json",
+    "*/node_modules/**/*"
+  ]
+}
